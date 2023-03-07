@@ -1,6 +1,29 @@
 /**
 Cross Micro Frontend styles
  */
-iframe{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
     border: 0;
 }
+
+/* Micro Frontend - Modules */
+.header {
+    display: flex;
+}
+
+.body {
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+}
+
