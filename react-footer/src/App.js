@@ -5,10 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React Footer
-        </p>
+          <img src={logo} className="App-logo" alt="logo"/>
+          <b>React Footer</b>
       </header>
     </div>
   );
