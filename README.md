@@ -1,4 +1,4 @@
-👋🏼 Micro Frontend with `<iframe>`!
+# 👋🏼 Micro Frontend with `<iframe>`!
 
 This project demonstrates a micro frontend architecture using iframes, with an Angular application serving as the body and two React applications serving as the header and footer.
 
