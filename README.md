@@ -48,7 +48,7 @@ Note that each application has its own `src` directory.
 
 ## Final Result
 
-![alt text](https://chat.openai.com/docs/iframe-mfe.png "Micro Frontend - iframe")
+![alt text](docs/iframe-mfe.png "Micro Frontend - iframe")
 
 License
 -------
