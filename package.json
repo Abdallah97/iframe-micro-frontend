@@ -1,0 +1,24 @@
+{
+  "name": "iframe-micro-frontend",
+  "version": "1.0.0",
+  "description": "Implemented Micro-Frontend with iFrame",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "open": "open app-container.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandroinfo/iframe-micro-frontend.git"
+  },
+  "keywords": [
+    "micro-frontend"
+  ],
+  "author": "Alessandro Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alessandroinfo/iframe-micro-frontend/issues"
+  },
+  "homepage": "https://github.com/Alessandroinfo/iframe-micro-frontend#readme"
+}
