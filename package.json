@@ -2,10 +2,11 @@
   "name": "iframe-micro-frontend",
   "version": "1.0.0",
   "description": "Implemented Micro-Frontend with iFrame",
-  "directories": {
-    "doc": "doc"
-  },
   "scripts": {
+    "install-apps": "cd angular-body/ && npm i & cd react-header/ && npm i & cd react-footer/ && npm i",
+    "serve-angular-body": "cd angular-body/ && npm run start",
+    "serve-react-header": "cd react-header/ && npm run start",
+    "serve-react-footer": "cd react-footer/ && npm run start",
     "open": "open app-container.html"
   },
   "repository": {

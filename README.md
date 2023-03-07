@@ -11,16 +11,22 @@ To run the entire architecture, you'll need to first run each application separa
 
 1. Install the necessary packages for each application:
 
-    - Navigate to the each directory and run `npm install` inside each project, `angular-body`, `react-header`
-      and `react-footer`.
+    - You can run `npm run install-apps` or navigate to the each directory (`angular-body`, `react-header`, `react-footer`) and run `npm install`.
 2. Start each application:
 
-    - For `angular-body`, navigate to the directory and run `ng serve`. This will start the application
+- You can serve each one:
+    - For `angular-body`, navigate to the directory and run `npm start`.
+      This will start the application
       on `localhost:3001`, which serves as the body.
-    - For `react-header`, navigate to the directory and run `npm start`. This will start the application
+    - For `react-header`, navigate to the directory and run `npm start`.
+      This will start the application
       on `localhost:3002`, which serves as the header.
-    - For `react-footer`, navigate to the directory and run `npm start`. This will start the application
+    - For `react-footer`, navigate to the directory and run `npm start`.
+      This will start the application
       on `localhost:3003`, which serves as the footer.
+
+- Or you can server each application with these commands: `serve-angular-body`, `serve-react-header`, `serve-react-footer`
+
 
 3. Once all three applications are running, you can open the `app-container.html` file in your browser to see the micro
    frontends in action.
@@ -53,7 +59,7 @@ respective `npm` commands as explained in step 2.
 
 ## Final Result
 
-![alt text](doc/iframe-mfe.png "Micro Frontend - iframe")
+![alt text](docs/iframe-mfe.png "Micro Frontend - iframe")
 
 
 
