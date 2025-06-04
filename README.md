@@ -13,9 +13,9 @@ and two React applications serving as the header and footer.
 2. Start each application:
 
    * For each application, navigate to its directory and run npm start.
-     * `angular-body` serves as the **body** on localhost:3001.
-     * `react-header` serves as the **header** on localhost:3002.
-     * `react-footer` serves as the **footer** on localhost:3003.
+     * `angular-body` serves as the **body** on localhost:4001.
+     * `react-header` serves as the **header** on localhost:4002.
+     * `react-footer` serves as the **footer** on localhost:4003.
    * Or you can server each application with these
      commands: `serve-angular-body`, `serve-react-header`, `serve-react-footer`.
 
